@@ -16,4 +16,10 @@
  &ensp;&ensp;HTML, CSS,  JavaScript (basic  knowledge), Pascal, Delphi, Java, PHP, C++,  C#,1C, SQL, Git, Nodepad++, WebStorm, VScode, Figma, Photoshop. 
 
 &ensp;&ensp;&ensp;&ensp;&ensp;The final stage of my training in IT-academy  was the development of landing page for a photo studio. Within this project I handled a wide variaty of tasks, each requiring different skills and approaches in order for targets to be achieved and obstacles to be overcome. To accomplish these tasks we worked in colaboration with my trainer and implemented various technics: css styles, flexbox, slick-slider etc. <https://github.com/tatsiana1707/projects/tree/diplom> 
-  
+ 
+5. &ensp;**CODE SAMPLE** 
+   ```
+        function booleanToString(b){
+        return String(b);
+        }
+   ``` 
