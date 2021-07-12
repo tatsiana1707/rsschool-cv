@@ -23,3 +23,9 @@
         return String(b);
         }
    ``` 
+6. &ensp;**EDUCATION AND QUALIFICATIONS** 
+
+  - 2005-2010 Gomel State University named after F.Skorina, faculty of Foreign Languages, spesiality: German language; 
+  - 2017- 2019 Gomel State University named after F.Skorina, faculty of retraining, speciality: developing engineer 
+  - 2019 IT-academy, HTML, CSS, Javascript developing 
+     
