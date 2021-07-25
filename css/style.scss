@@ -1,0 +1,138 @@
+$var1: #ffffff;
+$var2: #009999;
+$var3: #5CCCCC;
+$var4: #E8F6F3;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+	background-color: $var1;
+	font-size: 18px;
+}
+.wrapper{
+	width: 1310px;
+	margin: 0 auto;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 75px;
+	color: black;
+}
+.header {
+	width: 100%;
+	margin: auto;
+	background-color: $var2;
+	.header-inner {
+		display: flex;
+		align-items: center;
+		position: relative;
+		width: 80%;
+		height: 250px;
+	}
+	&-inner-title {
+		margin-left: 426px;
+	}
+	&-inner img {
+		width: 300px;
+		height: 300px;
+		border-radius: 50%;
+		position: absolute;
+		top: 106px;
+		left: 43px;
+		border: 5px solid white;
+		box-shadow: 3px 3px 10px rgba(0,0,0,.5);
+		cursor: pointer;
+		transition: .5s;
+		user-select: none;
+		filter: grayscale(100%);
+		&:hover {
+			filter: grayscale(0%);
+			transform: scale(1.05);
+			box-shadow: 3px 3px 20px rgba(0,0,0,.5) ;
+		}
+	}
+}
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	&-left {
+		flex: 0  30%;
+		background-color: $var3;
+		text-align: center;
+		.contact {
+			margin-top: 250px;
+			padding: 0 50px;
+			h2 {
+				font-size: 36px;
+				font-weight: normal;
+				margin: 20px 0;
+			}   		
+			p {
+				font-size: 22px;
+			}
+			.icon{
+				padding-top: 65px;
+    			font-size: 56px;
+    			margin: 20px 0;
+			}
+		}
+	}
+	&-right {
+		flex: 0 70%;
+		padding: 50px;
+		background-color: $var4;
+        h3{
+            padding-bottom: 50px;
+            font-size: 28px;
+            color: darkcyan;
+            text-align: center;
+        }
+		p, ul {
+			padding-bottom: 70px;
+			text-align: justify;
+			font-size: 20px;
+			padding-left: 70px;
+		}
+	}
+}
+.skills-wrapper {
+	column-count: 3;
+	padding-top: 0;
+	
+}
+.skills-list {
+	list-style: none;
+	li:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+.skills-item {
+	width: 33%;
+	break-inside: avoid-column;
+}
+
+.sample pre {
+	font-size: 28px;
+}
+
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: $var2;
+	font-size: 20px;
+	&-link{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+    .icon{
+		font-size: 53px;
+    	color: black;
+
+	}
+	}
+	
+}
