@@ -52,3 +52,66 @@ h1 {
 		}
 	}
 }
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	&-left {
+		flex: 0  30%;
+		background-color: $var3;
+		text-align: center;
+		.contact {
+			margin-top: 250px;
+			padding: 0 50px;
+			 h2 {
+				font-size: 36px;
+				font-weight: normal;
+				margin: 20px 0;
+}   		 p {
+				font-size: 22px;
+}
+			.icon{
+				padding-top: 65px;
+    			font-size: 56px;
+    			margin: 20px 0;
+			}
+		}
+	}
+	&-right {
+		flex: 0 70%;
+		padding: 50px;
+		background-color: $var4;
+        h3{
+            padding-bottom: 50px;
+            font-size: 28px;
+            color: darkcyan;
+            text-align: center;
+        }
+		p, ul {
+			padding-bottom: 70px;
+			text-align: justify;
+			font-size: 20px;
+			margin-top: 10px;
+			padding-left: 70px;
+		}
+	}
+}
+.skills-wrapper {
+	padding: 60px 0;
+	column-count: 3;
+	padding-top: 0;
+	padding-left: 70px;
+}
+.skills-list {
+	list-style: none;
+	li:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+.skills-item {
+	width: 33%;
+	break-inside: avoid-column;
+}
+
+.sample pre {
+	font-size: 28px;
+}
