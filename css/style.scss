@@ -115,3 +115,20 @@ h1 {
 .sample pre {
 	font-size: 28px;
 }
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: $var2;
+	font-size: 20px;
+	&-link{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+    .icon{
+		font-size: 53px;
+    	color: black;
+
+	}
+	}
+	
+}
